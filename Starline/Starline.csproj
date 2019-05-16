@@ -67,7 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Changepassword.aspx" />
+    <Content Include="BelowStockLevelDM.aspx" />
+    <Content Include="ComplaintRegisterC.aspx" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\color.css" />
@@ -84,10 +85,17 @@
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
     <Content Include="css\themify-icons.css" />
+    <Content Include="CustomerFeedbackC.aspx" />
+    <Content Include="CustomerSatisfactionAnalysisC.aspx" />
+    <Content Include="DailyUsageDM.aspx" />
+    <Content Include="DamagedMaterialP.aspx" />
+    <Content Include="DriverMasterMD.aspx" />
     <Content Include="fonts\fontawesome-webfont3e6e.svg" />
     <Content Include="fonts\Simple-Line-Icons.svg" />
     <Content Include="fonts\themify9f24.svg" />
     <Content Include="fonts\weathericons-regular-webfont.svg" />
+    <Content Include="GrnP.aspx" />
+    <Content Include="HardwareS.aspx" />
     <Content Include="images\404-shape1.png" />
     <Content Include="images\404-shape2.png" />
     <Content Include="images\boxed-bg.html" />
@@ -179,6 +187,7 @@
     <Content Include="images\success-icon.png" />
     <Content Include="images\warning-icon.png" />
     <Content Include="Index.aspx" />
+    <Content Include="InwardRegisterP.aspx" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\calander-int.js" />
     <Content Include="js\calander.min.js" />
@@ -204,22 +213,100 @@
     <Content Include="js\route-map-init.js" />
     <Content Include="js\sparkline.js" />
     <Content Include="js\touchspin.js" />
+    <Content Include="MiscellaneousS.aspx" />
+    <Content Include="NewCustomerC.aspx" />
+    <Content Include="PackgingMaterialS.aspx" />
+    <Content Include="PaperPackingS.aspx" />
+    <Content Include="PlywoodS.aspx" />
+    <Content Include="PolytheneS.aspx" />
+    <Content Include="ProductMasterMD.aspx" />
+    <Content Include="PurchaseIndentP.aspx" />
+    <Content Include="PurchaseOrderP.aspx" />
+    <Content Include="ReturnStockDM.aspx" />
+    <Content Include="SteelS.aspx" />
+    <Content Include="SupplierMasterMD.aspx" />
+    <Content Include="ToolsS.aspx" />
+    <Content Include="VechileMasterMD.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WoodS.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.Master.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
+    <Compile Include="BelowStockLevelDM.aspx.cs">
+      <DependentUpon>BelowStockLevelDM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin.Master.designer.cs">
-      <DependentUpon>Admin.Master</DependentUpon>
+    <Compile Include="BelowStockLevelDM.aspx.designer.cs">
+      <DependentUpon>BelowStockLevelDM.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Changepassword.aspx.cs">
-      <DependentUpon>Changepassword.aspx</DependentUpon>
+    <Compile Include="ComplaintRegisterC.aspx.cs">
+      <DependentUpon>ComplaintRegisterC.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Changepassword.aspx.designer.cs">
-      <DependentUpon>Changepassword.aspx</DependentUpon>
+    <Compile Include="ComplaintRegisterC.aspx.designer.cs">
+      <DependentUpon>ComplaintRegisterC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CRM.Master.cs">
+      <DependentUpon>CRM.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CRM.Master.designer.cs">
+      <DependentUpon>CRM.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerFeedbackC.aspx.cs">
+      <DependentUpon>CustomerFeedbackC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerFeedbackC.aspx.designer.cs">
+      <DependentUpon>CustomerFeedbackC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSatisfactionAnalysisC.aspx.cs">
+      <DependentUpon>CustomerSatisfactionAnalysisC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerSatisfactionAnalysisC.aspx.designer.cs">
+      <DependentUpon>CustomerSatisfactionAnalysisC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DailyMaster.Master.cs">
+      <DependentUpon>DailyMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyMaster.Master.designer.cs">
+      <DependentUpon>DailyMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DailyUsageDM.aspx.cs">
+      <DependentUpon>DailyUsageDM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DailyUsageDM.aspx.designer.cs">
+      <DependentUpon>DailyUsageDM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DamagedMaterialP.aspx.cs">
+      <DependentUpon>DamagedMaterialP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DamagedMaterialP.aspx.designer.cs">
+      <DependentUpon>DamagedMaterialP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DriverMasterMD.aspx.cs">
+      <DependentUpon>DriverMasterMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DriverMasterMD.aspx.designer.cs">
+      <DependentUpon>DriverMasterMD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GrnP.aspx.cs">
+      <DependentUpon>GrnP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GrnP.aspx.designer.cs">
+      <DependentUpon>GrnP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HardwareS.aspx.cs">
+      <DependentUpon>HardwareS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HardwareS.aspx.designer.cs">
+      <DependentUpon>HardwareS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -235,11 +322,143 @@
     <Compile Include="Index.Master.designer.cs">
       <DependentUpon>Index.Master</DependentUpon>
     </Compile>
+    <Compile Include="InwardRegisterP.aspx.cs">
+      <DependentUpon>InwardRegisterP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InwardRegisterP.aspx.designer.cs">
+      <DependentUpon>InwardRegisterP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData.Master.cs">
+      <DependentUpon>MasterData.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData.Master.designer.cs">
+      <DependentUpon>MasterData.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MiscellaneousS.aspx.cs">
+      <DependentUpon>MiscellaneousS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiscellaneousS.aspx.designer.cs">
+      <DependentUpon>MiscellaneousS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCustomerC.aspx.cs">
+      <DependentUpon>NewCustomerC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCustomerC.aspx.designer.cs">
+      <DependentUpon>NewCustomerC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PackgingMaterialS.aspx.cs">
+      <DependentUpon>PackgingMaterialS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PackgingMaterialS.aspx.designer.cs">
+      <DependentUpon>PackgingMaterialS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaperPackingS.aspx.cs">
+      <DependentUpon>PaperPackingS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaperPackingS.aspx.designer.cs">
+      <DependentUpon>PaperPackingS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlywoodS.aspx.cs">
+      <DependentUpon>PlywoodS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlywoodS.aspx.designer.cs">
+      <DependentUpon>PlywoodS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PolytheneS.aspx.cs">
+      <DependentUpon>PolytheneS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolytheneS.aspx.designer.cs">
+      <DependentUpon>PolytheneS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMasterMD.aspx.cs">
+      <DependentUpon>ProductMasterMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductMasterMD.aspx.designer.cs">
+      <DependentUpon>ProductMasterMD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchase.Master.cs">
+      <DependentUpon>Purchase.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Purchase.Master.designer.cs">
+      <DependentUpon>Purchase.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseIndentP.aspx.cs">
+      <DependentUpon>PurchaseIndentP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseIndentP.aspx.designer.cs">
+      <DependentUpon>PurchaseIndentP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseOrderP.aspx.cs">
+      <DependentUpon>PurchaseOrderP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurchaseOrderP.aspx.designer.cs">
+      <DependentUpon>PurchaseOrderP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnStockDM.aspx.cs">
+      <DependentUpon>ReturnStockDM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReturnStockDM.aspx.designer.cs">
+      <DependentUpon>ReturnStockDM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SteelS.aspx.cs">
+      <DependentUpon>SteelS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SteelS.aspx.designer.cs">
+      <DependentUpon>SteelS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.Master.cs">
+      <DependentUpon>Stock.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stock.Master.designer.cs">
+      <DependentUpon>Stock.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierMasterMD.aspx.cs">
+      <DependentUpon>SupplierMasterMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SupplierMasterMD.aspx.designer.cs">
+      <DependentUpon>SupplierMasterMD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsS.aspx.cs">
+      <DependentUpon>ToolsS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToolsS.aspx.designer.cs">
+      <DependentUpon>ToolsS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VechileMasterMD.aspx.cs">
+      <DependentUpon>VechileMasterMD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VechileMasterMD.aspx.designer.cs">
+      <DependentUpon>VechileMasterMD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WoodS.aspx.cs">
+      <DependentUpon>WoodS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WoodS.aspx.designer.cs">
+      <DependentUpon>WoodS.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.Master" />
-    <Content Include="Admin.Master" />
     <Content Include="fonts\fontawesome-webfont3e6e.eot" />
     <Content Include="fonts\fontawesome-webfont3e6e.ttf" />
     <Content Include="fonts\fontawesome-webfont3e6e.woff" />
@@ -256,7 +475,12 @@
     <Content Include="fonts\weathericons-regular-webfont.ttf" />
     <Content Include="fonts\weathericons-regular-webfont.woff" />
     <Content Include="fonts\weathericons-regular-webfontd41d.eot" />
+    <Content Include="MasterData.Master" />
+    <Content Include="DailyMaster.Master" />
+    <Content Include="CRM.Master" />
     <None Include="packages.config" />
+    <Content Include="Stock.Master" />
+    <Content Include="Purchase.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

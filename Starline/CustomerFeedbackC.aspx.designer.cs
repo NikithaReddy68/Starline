@@ -11,7 +11,7 @@ namespace Starline
 {
 
 
-    public partial class Changepassword
+    public partial class CustomerFeedbackC
     {
     }
 }

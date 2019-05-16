@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Starline
 {
-    public partial class Admin : System.Web.UI.MasterPage
+    public partial class MasterData : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
